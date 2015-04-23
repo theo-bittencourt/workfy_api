@@ -1,4 +1,4 @@
-threads Integer(ENV['MIN_THREADS'] || 8), Integer(ENV['MAX_THREADS'] || 8)
+threads Integer(ENV['MIN_THREADS'] || 6), Integer(ENV['MAX_THREADS'] || 6)
 
 preload_app!
 
